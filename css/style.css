@@ -14,7 +14,10 @@ nav {
     align-items: center;
     margin-top: 14px;
 }
-
+.bem-vindos {
+    display: flex;
+    flex-direction: column;
+}
 .nav-itens {
     list-style: none;
     display: flex;
