@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    font-family: "poppins";
+
+}
+.nav-itens li a{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #202020;
+    font-weight: 600;
+}
+
+
+
+
+.sobre-container {
+    display: flex;
+    flex-direction: row-reverse; /* Coloca a imagem à direita e o texto à esquerda */
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #aaaaaa;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+.sobre-imagem {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    
+
+}
+
+.sobre-texto {
+    flex: 1;
+    font-family: "poppins";
+}
+
+.sobre-texto h2 {
+    margin-top: 0;
+}
+
+.Trabalhos {
+    justify-content: center;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+    height: 480px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-imagem {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding: 15px;
+}
+
+.card-conteudo h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: "poppins";
+}
+
+.card-conteudo p {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5;
+}
+.slogan {
+    font-family: "poppins";
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+}
+.titulo-curso {
+    text-align: center;
+    font-family: "poppins";
+
+}
+.container-curso-automaque {
+    background-color: #aaaaaa;
+    margin-top: 30px;
+    padding: 30px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 907px;
+    margin: auto;
+   
+}
+.aprender {
+    text-align: center;
+    font-family: "poppins";
+    margin-top: 20px;
+}
+.conteudo-curso {
+    text-align: justify;
+    list-style-position: inside;
+    font-family: "poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    margin-top: 30px;
+}
+body {
+    background-color: #b7b7b7;
+}
+.botao-interesse {
+    background-color: #0077ff; /* Verde */
+    color: white; /* Texto branco */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background-color 0.3s; /* Efeito de transição */
+    font-family: "poppins";
+    position: relative;
+    left: 340px;
+    margin-top: 20px;
+    
+}
+
+.botao-interesse:hover {
+    background-color: #031d72; /* Verde escuro ao passar o mouse */
+}
+.rodape h3 {
+    font-size: 40px;
+    font-family: "poppins";
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.rodape h4 {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: "poppins";
+    text-align: center;
+}
+.rodape p {
+    font-family: "poppins";
+    text-align: center;
+}
+.whatsapp-button {
+    display: inline-block; /* Para que o link se comporte como um botão */
+    background-color: #25D366; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 30px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-family: "poppins";
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s, transform 0.2s; /* Animações suaves */
+    
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o botão */
+}
+
+.whatsapp-button:active {
+    transform: scale(0.95); /* Diminui o botão ao clicar */
+}
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
